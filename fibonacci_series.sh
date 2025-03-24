@@ -7,7 +7,7 @@ b=1
 echo $a
 r=$(($a+$b))
 echo $r
-for((i=0;i<n;i++)){
+for((i=2;i<n;i++)){
 	a=$r
 	echo $a
 	r=$(($a+$b))
