@@ -10,7 +10,7 @@ printf("Frame size = ");
 scanf("%d",&sf);
 int frame[sf];
 
-//set all frames to -1 to avoid confusion amoung pages and frame value
+//set all frames to -1 to avoid confusion amoung pages and empty value
 for(i=0;i<sf;i++){
 	frame[i]=-1;
 	}
@@ -68,7 +68,7 @@ for (i=0;i<=sp;i++){
 					max=-1;
 					break;
 					}
-				if(max<index[j])
+				if(max<index[j])//to get max value of index
 					max=index[j];
 				}
 			
