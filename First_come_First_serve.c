@@ -55,7 +55,7 @@ for(int i=0;i<p;i++){
 printf(" PID\tAT\tBT\tCT\tTAT\tWT\tRT\n");
 for(int i=0;i<p;i++){
 	int index;
-	for(int j=0;j<p;j++){
+	for(int j=0;j<p;j++){//To print in user input order
 		if(pid[j]==i+1){
 			index=j;
 			break;
@@ -63,6 +63,7 @@ for(int i=0;i<p;i++){
 		}
 	printf(" %d\t%d\t%d\t%d\t%d\t%d\t%d\n",pid[index],at[index],bt[index],ct[index],tat[index],wt[index],rt[index]);
 	}
+	
 for(int i=0;i<p;i++){
 	stat+=tat[i];//Sum of TAT
 	swt+=wt[i];//Sum of WT
