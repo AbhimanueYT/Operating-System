@@ -16,7 +16,7 @@ for(int i=0;i<p;i++){
 	pid[i]=i+1;
 	}
 
-//Sort process in arrival time
+//Sort process on arrival time
 for(int i=0;i<p-1;i++){
 	for(int j=0;j<p-i-1;j++){
 		if(at[j]>at[j+1]){
@@ -32,6 +32,7 @@ for(int i=0;i<p-1;i++){
 			}
 		}
 	}
+	
 ct[0]=at[0]+bt[0];//Always first process's completion time will be at+bt of it
 rt[0]=0;//Always first process's response time will be "0" 
 
