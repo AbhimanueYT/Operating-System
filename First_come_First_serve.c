@@ -7,7 +7,7 @@ int p,stat=0,swt=0;//stat=sum of TAT; swt=sum of WT, p=number of process
 printf("No of process = ");
 scanf("%d",&p);
 
-
+//initialization
 int at[p],bt[p],ct[p],tat[p],wt[p],rt[p],pid[p];
 for(int i=0;i<p;i++){
 	printf("AT and BT of P%d = ",i+1);
