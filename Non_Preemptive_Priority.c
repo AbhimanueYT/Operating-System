@@ -20,7 +20,7 @@ struct proc read(int i){
 
 int main(){
 
-//stat=sum of TAT, index=to store index value of process, pri=sort the highest priority process, ct=compute completion time, swt=sum of WT, n=number of process, prio=priority of process, pri=used as flag to check priority.
+//n=number of process, index=to store index value of process, ct=compute completion time, stat=sum of TAT, swt=sum of WT, prio=priority of process, pri=used as flag to check priority.
 int n, index = -1, ct, stat = 0, swt = 0, prio, pri;
 
 printf("No of process = ");
