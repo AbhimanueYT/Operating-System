@@ -1,6 +1,6 @@
 # Operating-System
 
-## 🛠️ How to Run `.sh` and `.c` Files in Linux Terminal (No `-o` Flag)
+## 🛠️ How to Run `.sh` and `.c` Files in Linux Terminal
 
 ### 📁 Prerequisites
 Make sure the following are installed:
