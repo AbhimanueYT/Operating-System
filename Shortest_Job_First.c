@@ -29,7 +29,7 @@ int gidx = 0;
 
 //Read processes
 for(int i=0;i<n;i++){
-	printf("AT, BT and Priority of P%d = ",i+1);
+	printf("AT & BT of P%d = ",i+1);
 	p[i]=read(i);
 	}
 	
